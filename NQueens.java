@@ -48,6 +48,7 @@ public class NQueens {
 		return true;
 	}
 	
+	//This part could be better, using string builder! Exercise Later!
 	private static List<String> chessConverter (List<Integer> col) {
 		List<String> solution = new ArrayList<>();
 		for (Integer num: col) {
