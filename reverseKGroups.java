@@ -27,8 +27,6 @@ public class reverseKGroups {
 	 * */
 	public ListNode reverseKnodes(ListNode prev, int k) {
 		//First count if the left nodes > k
-		
-		
 		ListNode head = prev.next;
 		ListNode next = head;
 		for (int i = 0; i < k; i++) {
