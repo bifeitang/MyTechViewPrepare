@@ -1,3 +1,13 @@
+/**
+ * When should we use dummy node:
+ * When we change the structure of the LinkedList, which may leads to the change of the head
+ *
+ * Do we need to delete the dummy node?
+ * No, the Java will directly takes care it for us
+ *
+ * Should we use the dummy node all the time?
+ * Not necessary
+ * */
 public class reverseKGroups {
 	static class ListNode {
 		int val;
